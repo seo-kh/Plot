@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AA0526152AC6C01400D1A1FD /* BarColorDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0526142AC6C01400D1A1FD /* BarColorDemoView.swift */; };
 		AAA53D9E2AC6BAB40095760E /* PlotApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAA53D9D2AC6BAB40095760E /* PlotApp.swift */; };
 		AAA53DA02AC6BAB40095760E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAA53D9F2AC6BAB40095760E /* ContentView.swift */; };
 		AAA53DA22AC6BAB60095760E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AAA53DA12AC6BAB60095760E /* Assets.xcassets */; };
@@ -14,6 +15,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AA0526142AC6C01400D1A1FD /* BarColorDemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarColorDemoView.swift; sourceTree = "<group>"; };
 		AAA53D9A2AC6BAB40095760E /* Plot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Plot.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AAA53D9D2AC6BAB40095760E /* PlotApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlotApp.swift; sourceTree = "<group>"; };
 		AAA53D9F2AC6BAB40095760E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -33,6 +35,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AA0526132AC6C00A00D1A1FD /* Plots */ = {
+			isa = PBXGroup;
+			children = (
+				AA0526142AC6C01400D1A1FD /* BarColorDemoView.swift */,
+			);
+			path = Plots;
+			sourceTree = "<group>";
+		};
 		AAA53D912AC6BAB40095760E = {
 			isa = PBXGroup;
 			children = (
@@ -54,6 +64,7 @@
 			children = (
 				AAA53D9D2AC6BAB40095760E /* PlotApp.swift */,
 				AAA53D9F2AC6BAB40095760E /* ContentView.swift */,
+				AA0526132AC6C00A00D1A1FD /* Plots */,
 				AAA53DA12AC6BAB60095760E /* Assets.xcassets */,
 				AAA53DA62AC6BAB60095760E /* Plot.entitlements */,
 				AAA53DA32AC6BAB60095760E /* Preview Content */,
@@ -141,6 +152,7 @@
 			files = (
 				AAA53DA02AC6BAB40095760E /* ContentView.swift in Sources */,
 				AAA53D9E2AC6BAB40095760E /* PlotApp.swift in Sources */,
+				AA0526152AC6C01400D1A1FD /* BarColorDemoView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
