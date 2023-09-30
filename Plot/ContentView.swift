@@ -10,6 +10,7 @@ import SwiftUI
 enum PlotSection: String, Identifiable, Hashable, CaseIterable {
     case barColorDemo = "Bar Color demo"
     case barLabelDemo = "Bar Label Demo"
+    case groupedBarChartWithLabels = "Grouped bar chart with labels"
     
     var id: Int { self.hashValue }
 }
@@ -26,9 +27,13 @@ struct ContentView: View {
             switch selection {
             case .barColorDemo:
                 BarColorDemoView()
+                    .navigationTitle(selection.rawValue)
             case .barLabelDemo:
                 BarLabelDemoView()
-                    .navigationTitle("Plot")
+                    .navigationTitle(selection.rawValue)
+            case .groupedBarChartWithLabels:
+                GroupedBarChartWithLabels()
+                    .navigationTitle(selection.rawValue)
             }
         }
 
