@@ -11,6 +11,7 @@ enum PlotSection: String, Identifiable, Hashable, CaseIterable {
     case barColorDemo = "Bar Color demo"
     case barLabelDemo = "Bar Label Demo"
     case groupedBarChartWithLabels = "Grouped bar chart with labels"
+    case plottingCategoricalVariables = "Plotting categorical variables"
     
     var id: Int { self.hashValue }
 }
@@ -32,6 +33,9 @@ struct ContentView: View {
                 BarLabelDemoView()
                     .navigationTitle(selection.rawValue)
             case .groupedBarChartWithLabels:
+                GroupedBarChartWithLabels()
+                    .navigationTitle(selection.rawValue)
+            case .plottingCategoricalVariables:
                 GroupedBarChartWithLabels()
                     .navigationTitle(selection.rawValue)
             }
