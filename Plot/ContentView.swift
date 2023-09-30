@@ -12,6 +12,8 @@ enum PlotSection: String, Identifiable, Hashable, CaseIterable {
     case barLabelDemo = "Bar Label Demo"
     case groupedBarChartWithLabels = "Grouped bar chart with labels"
     case plottingCategoricalVariables = "Plotting categorical variables"
+    case plottingTheCoherenceOfTowSignals = "Plotting the coherence of two signals"
+    case interactionWithChart = "Interaction with chart"
     
     var id: Int { self.hashValue }
 }
@@ -36,7 +38,13 @@ struct ContentView: View {
                 GroupedBarChartWithLabels()
                     .navigationTitle(selection.rawValue)
             case .plottingCategoricalVariables:
-                GroupedBarChartWithLabels()
+                PlottingCategoricalVariablesView()
+                    .navigationTitle(selection.rawValue)
+            case .plottingTheCoherenceOfTowSignals:
+                PlottingTheCoherenceOfTwoSignalsView()
+                    .navigationTitle(selection.rawValue)
+            case .interactionWithChart:
+                InteractionWithChartView()
                     .navigationTitle(selection.rawValue)
             }
         }

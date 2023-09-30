@@ -11,6 +11,8 @@
 		AA0526172AC6D0E700D1A1FD /* BarLabelDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0526162AC6D0E700D1A1FD /* BarLabelDemoView.swift */; };
 		AA0526192AC7961300D1A1FD /* GroupedBarChartWithLabels.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0526182AC7961300D1A1FD /* GroupedBarChartWithLabels.swift */; };
 		AA05261B2AC7AF7D00D1A1FD /* PlottingCategoricalVariablesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA05261A2AC7AF7D00D1A1FD /* PlottingCategoricalVariablesView.swift */; };
+		AA05261D2AC7BF1800D1A1FD /* PlottingTheCoherenceOfTwoSignalsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA05261C2AC7BF1800D1A1FD /* PlottingTheCoherenceOfTwoSignalsView.swift */; };
+		AA05261F2AC7F47F00D1A1FD /* InteractionWithChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA05261E2AC7F47F00D1A1FD /* InteractionWithChartView.swift */; };
 		AAA53D9E2AC6BAB40095760E /* PlotApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAA53D9D2AC6BAB40095760E /* PlotApp.swift */; };
 		AAA53DA02AC6BAB40095760E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAA53D9F2AC6BAB40095760E /* ContentView.swift */; };
 		AAA53DA22AC6BAB60095760E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AAA53DA12AC6BAB60095760E /* Assets.xcassets */; };
@@ -22,6 +24,8 @@
 		AA0526162AC6D0E700D1A1FD /* BarLabelDemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarLabelDemoView.swift; sourceTree = "<group>"; };
 		AA0526182AC7961300D1A1FD /* GroupedBarChartWithLabels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupedBarChartWithLabels.swift; sourceTree = "<group>"; };
 		AA05261A2AC7AF7D00D1A1FD /* PlottingCategoricalVariablesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlottingCategoricalVariablesView.swift; sourceTree = "<group>"; };
+		AA05261C2AC7BF1800D1A1FD /* PlottingTheCoherenceOfTwoSignalsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlottingTheCoherenceOfTwoSignalsView.swift; sourceTree = "<group>"; };
+		AA05261E2AC7F47F00D1A1FD /* InteractionWithChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InteractionWithChartView.swift; sourceTree = "<group>"; };
 		AAA53D9A2AC6BAB40095760E /* Plot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Plot.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AAA53D9D2AC6BAB40095760E /* PlotApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlotApp.swift; sourceTree = "<group>"; };
 		AAA53D9F2AC6BAB40095760E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -48,6 +52,8 @@
 				AA0526162AC6D0E700D1A1FD /* BarLabelDemoView.swift */,
 				AA0526182AC7961300D1A1FD /* GroupedBarChartWithLabels.swift */,
 				AA05261A2AC7AF7D00D1A1FD /* PlottingCategoricalVariablesView.swift */,
+				AA05261C2AC7BF1800D1A1FD /* PlottingTheCoherenceOfTwoSignalsView.swift */,
+				AA05261E2AC7F47F00D1A1FD /* InteractionWithChartView.swift */,
 			);
 			path = Plots;
 			sourceTree = "<group>";
@@ -159,7 +165,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA05261D2AC7BF1800D1A1FD /* PlottingTheCoherenceOfTwoSignalsView.swift in Sources */,
 				AA05261B2AC7AF7D00D1A1FD /* PlottingCategoricalVariablesView.swift in Sources */,
+				AA05261F2AC7F47F00D1A1FD /* InteractionWithChartView.swift in Sources */,
 				AAA53DA02AC6BAB40095760E /* ContentView.swift in Sources */,
 				AA0526192AC7961300D1A1FD /* GroupedBarChartWithLabels.swift in Sources */,
 				AAA53D9E2AC6BAB40095760E /* PlotApp.swift in Sources */,
